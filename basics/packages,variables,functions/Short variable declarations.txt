@@ -1,0 +1,8 @@
+package main
+
+import "fmt"
+
+func main() {
+	k, z := 3, "sorry"
+	fmt.Println(k, z)
+}

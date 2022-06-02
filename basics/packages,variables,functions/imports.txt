@@ -1,0 +1,10 @@
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func main() {
+	fmt.Printf("Listen %+v me\n %g", math.Sqrt(7), math.Sqrt(4))
+}

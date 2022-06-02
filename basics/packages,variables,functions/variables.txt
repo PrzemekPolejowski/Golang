@@ -1,0 +1,10 @@
+package main
+
+import "fmt"
+
+var something bool
+
+func main() {
+	var x, z int
+	fmt.Println(x, z, something)
+}

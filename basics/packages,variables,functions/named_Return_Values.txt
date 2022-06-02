@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+func split(x, y int) (suma_Liczba, roznica_Liczb int) {
+	suma_Liczba = x + y
+	roznica_Liczb = int(x - y)
+	return roznica_Liczb, suma_Liczba
+}
+func main() {
+	fmt.Println(split(3, 2))
+}
