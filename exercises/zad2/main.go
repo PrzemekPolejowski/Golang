@@ -2,6 +2,14 @@ package main
 
 import "fmt"
 
+// func cumulativeSum[T comparable](array []T) []T {
+// 	for i:=range array{
+// 		if i>0{
+// 			array[]
+// 		}
+// 	}
+// }
+
 func cumulativeSum(array []int) []int {
 	//fmt.Println(array)
 	for i := range array {
